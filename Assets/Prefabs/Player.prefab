@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1803940146}
   - component: {fileID: 1803940147}
   - component: {fileID: 1803940149}
+  - component: {fileID: 4225249923798185327}
+  - component: {fileID: 8198409460889296693}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -133,6 +135,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4225249923798185327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425928115280695963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e210b366f3d96444a0b1af5a26c9f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8198409460889296693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425928115280695963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9be536531f93448b705a79ec171e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3341687701439063829
 PrefabInstance:
   m_ObjectHideFlags: 0
