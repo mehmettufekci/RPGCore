@@ -38,47 +38,47 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Arrow_DIFF
-    second: {fileID: 2800000, guid: b633af1e102a65f4bb8da199752f7c12, type: 3}
+    second: {fileID: 2800000, guid: 0c8f7dc2b2e480149bb23c604346ed73, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Arrow_NM
-    second: {fileID: 2800000, guid: 90c0d789f9e42c94da53585f056ac361, type: 3}
+    second: {fileID: 2800000, guid: 2abd58c18378da04195e6492fee51a09, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bow_DIFF
-    second: {fileID: 2800000, guid: 0c0ead01802de944fbcf55d715a43d82, type: 3}
+    second: {fileID: 2800000, guid: 14823a21e0754044a92c4b709fd8b906, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bow_NM
-    second: {fileID: 2800000, guid: d6c55952502f4af4b891275ede5bb6c4, type: 3}
+    second: {fileID: 2800000, guid: 8bd86b0e6ce1edd43ac369060fe324ff, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Erika_Archer_Clothes_diffuse
-    second: {fileID: 2800000, guid: 3c3d7ead1306d334d8a3b307e7bde1bb, type: 3}
+    second: {fileID: 2800000, guid: 99d0914e62f64a9428ad9073a74e8b5c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Erika_Archer_Clothes_normal
-    second: {fileID: 2800000, guid: cbcd4ad4b3dc2164d833f967d6175365, type: 3}
+    second: {fileID: 2800000, guid: 1ed95dc21c105b147ba7eb36c4754787, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: FemaleFitA_Body_diffuse
-    second: {fileID: 2800000, guid: de3ff58a9790bd248997e02a59215acb, type: 3}
+    second: {fileID: 2800000, guid: 1a7c86a47024644498dcee874f43ea36, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: FemaleFitA_StdNM
-    second: {fileID: 2800000, guid: 2b0c8fb7586fbb54396b435e9999fdeb, type: 3}
+    second: {fileID: 2800000, guid: a50331982181ed2488ed0d35502d3a63, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: FemaleFitA_eyelash_diffuse
-    second: {fileID: 2800000, guid: 60ce62d51872d064ea210ae2989c0ea4, type: 3}
+    second: {fileID: 2800000, guid: 2c6c3c5bae94a534e83dd38542e2c9c5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
