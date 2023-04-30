@@ -57,6 +57,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebc22a500cd8b01499456b0e88f5d6ed, type: 3}
+--- !u!4 &6146458659346524744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1852576806548013000, guid: ebc22a500cd8b01499456b0e88f5d6ed, type: 3}
+  m_PrefabInstance: {fileID: 5546525299687216512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7998021956560151509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108,6 +113,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8198409460889296693, guid: 314f16c4087a496438e0b8a14f52d45c, type: 3}
+      propertyPath: weaponDamage
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8198409460889296693, guid: 314f16c4087a496438e0b8a14f52d45c, type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 1811516315978891493, guid: 917af9da7bf949a4c87aea91f72a94e0, type: 3}
+    - target: {fileID: 8198409460889296693, guid: 314f16c4087a496438e0b8a14f52d45c, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 6146458659346524744}
     - target: {fileID: 8425928115280695963, guid: 314f16c4087a496438e0b8a14f52d45c, type: 3}
       propertyPath: m_Name
       value: Player
