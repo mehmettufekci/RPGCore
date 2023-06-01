@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: isHoming
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729551099498354919, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 7021176165078779787, guid: d4d0422ad8d0f534282d007493f8996a, type: 3}
     - target: {fileID: 7338928480284566490, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
       propertyPath: m_Name
       value: ArrowProjectile Red

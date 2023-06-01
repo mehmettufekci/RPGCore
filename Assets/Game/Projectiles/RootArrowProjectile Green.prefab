@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1652680930027021024
+--- !u!1001 &2676937490683440008
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -57,31 +57,19 @@ PrefabInstance:
       objectReference: {fileID: 7021176165078779787, guid: d4d0422ad8d0f534282d007493f8996a, type: 3}
     - target: {fileID: 7338928480284566490, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Blue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
-      propertyPath: m_Parameters.colorGradient.atime1
-      value: 65178
-      objectReference: {fileID: 0}
-    - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
-      propertyPath: m_Parameters.colorGradient.ctime0
-      value: 16763
+      value: RootArrowProjectile Green
       objectReference: {fileID: 0}
     - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
-      value: 0.9433962
+      value: 0.699229
       objectReference: {fileID: 0}
     - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.g
-      value: 0.62919605
+      value: 0.9528302
       objectReference: {fileID: 0}
     - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8682948208037944089, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
-      propertyPath: m_Parameters.colorGradient.key1.a
-      value: 0.6745098
+      value: 0.4539427
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ffb1179d89ecec44a238e7564f9905d, type: 3}
