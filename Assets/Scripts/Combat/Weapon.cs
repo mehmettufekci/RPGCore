@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace RPG.Combat
 {
-    [CreateAssetMenu(fileName = "Weapon", menuName ="Weapons/Make New Weapon", order = 0)]
+    [CreateAssetMenu(fileName = "Weapon", menuName = "Weapons/Make New Weapon", order = 0)]
     public class Weapon : ScriptableObject
     {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
@@ -13,11 +13,11 @@ namespace RPG.Combat
         [SerializeField] float weaponDamage = 5f;
         [SerializeField] float weaponRange = 2f;
         [SerializeField] bool isRightHanded = true;
-        [SerializeField] Projectile projectile  = null;
+        [SerializeField] Projectile projectile = null;
 
         const string weaponName = "Weapon";
 
-        public void Spawn(Transform rightHand, Transform leftHand, Animator animator) 
+        public void Spawn(Transform rightHand, Transform leftHand, Animator animator)
         {
             DestroyOldWeapon(rightHand, leftHand);
 
@@ -27,10 +27,17 @@ namespace RPG.Combat
                 GameObject weapon = Instantiate(equippedPrefab, handTransform);
                 weapon.name = weaponName;
             }
+
+            var overrideController = animator.runtimeAnimatorController as AnimatorOverrideController;
             if (animatorOverride != null)
             {
                 animator.runtimeAnimatorController = animatorOverride;
             }
+            else if (overrideController != null)
+            {
+                animator.runtimeAnimatorController = overrideController.runtimeAnimatorController;
+            }
+
         }
 
         private void DestroyOldWeapon(Transform rightHand, Transform leftHand)

@@ -2839,7 +2839,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.48106235
   m_ScreenY: 0.95098037
-  m_CameraDistance: 26.79998
+  m_CameraDistance: 33.79996
   m_DeadZoneWidth: 0.15
   m_DeadZoneHeight: 0.12
   m_DeadZoneDepth: 0
@@ -3970,6 +3970,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7c05b64bfc8b143a73f3830e28993e, type: 3}
+--- !u!4 &1544909741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2291376597027584554, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
+  m_PrefabInstance: {fileID: 7873516801049383959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1555704232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4550,6 +4555,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6502182839619065283, guid: d5ee1532477128747a5facec16173817, type: 3}
   m_PrefabInstance: {fileID: 942211188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1754295746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6648811418280890401, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
+  m_PrefabInstance: {fileID: 7873516801049383959}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1766488479
 PrefabInstance:
@@ -5399,6 +5409,7 @@ MonoBehaviour:
   rightHandTransform: {fileID: 282828503}
   leftHandTransform: {fileID: 1744801170}
   defaultWeapon: {fileID: 11400000, guid: e85ad30ac6a89bf4f9c42a92caeca667, type: 2}
+  defaultWeaponName: Unarmed
 --- !u!114 &5283823458861432810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5510,15 +5521,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7873516800781811802, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.20315
+      value: 39.24186
       objectReference: {fileID: 0}
     - target: {fileID: 7873516800781811802, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.9088254
+      value: 11.554045
       objectReference: {fileID: 0}
     - target: {fileID: 7873516800781811802, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -51.070305
+      value: -54.616234
       objectReference: {fileID: 0}
     - target: {fileID: 7873516800781811803, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_IsActive
@@ -5574,15 +5585,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7873516802536160553, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.20315
+      value: 39.24186
       objectReference: {fileID: 0}
     - target: {fileID: 7873516802536160553, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.9088254
+      value: 11.554045
       objectReference: {fileID: 0}
     - target: {fileID: 7873516802536160553, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -51.070305
+      value: -54.616234
       objectReference: {fileID: 0}
     - target: {fileID: 7873516802536160553, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5596,6 +5607,18 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: e85ad30ac6a89bf4f9c42a92caeca667, type: 2}
+    - target: {fileID: 8249590385167673447, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 8249590385167673447, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 1754295746}
+    - target: {fileID: 8249590385167673447, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 1544909741}
     - target: {fileID: 8322790759161477670, guid: dd2913e5dd50bc5429d3763278029396, type: 3}
       propertyPath: m_RootOrder
       value: 5
