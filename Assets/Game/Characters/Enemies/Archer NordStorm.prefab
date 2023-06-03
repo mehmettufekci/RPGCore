@@ -20,8 +20,9 @@ GameObject:
   - component: {fileID: 3423813110203276356}
   - component: {fileID: 164167124233552117}
   - component: {fileID: 7471720787915894170}
+  - component: {fileID: 7840410108705756623}
   m_Layer: 0
-  m_Name: Archer NorrdStorm
+  m_Name: Archer NordStorm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,6 +158,7 @@ MonoBehaviour:
   rightHandTransform: {fileID: 7730596907059779328}
   leftHandTransform: {fileID: 2936717425057561867}
   defaultWeapon: {fileID: 11400000, guid: 8110642fd54a0e1499c9ba2dcaed3c92, type: 2}
+  defaultWeaponName: EnemyBow
 --- !u!114 &924338773040846625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +244,19 @@ MonoBehaviour:
   waypointTolerance: 1
   waypointDwellTime: 3
   patrolSpeedFraction: 0.3
+--- !u!114 &7840410108705756623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604615125527404015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: 
 --- !u!1001 &8285836235740801224
 PrefabInstance:
   m_ObjectHideFlags: 0
