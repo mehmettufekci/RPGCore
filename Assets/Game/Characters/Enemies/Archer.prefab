@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 164167124233552117}
   - component: {fileID: 7471720787915894170}
   - component: {fileID: 6482877355259409519}
+  - component: {fileID: 530238861307291847}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
@@ -158,7 +159,6 @@ MonoBehaviour:
   rightHandTransform: {fileID: 1581197168661619063}
   leftHandTransform: {fileID: 6230803130999933820}
   defaultWeapon: {fileID: 11400000, guid: 8110642fd54a0e1499c9ba2dcaed3c92, type: 2}
-  defaultWeaponName: EnemyBow
 --- !u!114 &924338773040846625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +257,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueIdentifier: 
+--- !u!114 &530238861307291847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604615125527404015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6cb53e956a9104ba7201f589924af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+  characterClass: 3
 --- !u!1001 &883874002018639551
 PrefabInstance:
   m_ObjectHideFlags: 0
