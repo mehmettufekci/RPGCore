@@ -10,6 +10,17 @@ namespace RPG.SceneManagement
     {
         const string defaultSaveFile = "save";
 
+
+        //private void Awake()
+        //{
+        //    StartCoroutine(LoadLastScene());
+        //}
+
+        //private IEnumerator LoadLastScene()
+        //{
+        //    yield return GetComponent<SavingSystem>().LoadLastScene(defaultSaveFile);
+        //}
+
         void Update()
         {
             if(Input.GetKeyDown(KeyCode.L))
@@ -19,6 +30,10 @@ namespace RPG.SceneManagement
             if (Input.GetKeyDown(KeyCode.S))
             {
                 Save();
+            }
+            if(Input.GetKeyDown(KeyCode.Delete))
+            {
+                Delete();
             }
         }
 
@@ -30,6 +45,11 @@ namespace RPG.SceneManagement
         private void Load()
         {
             GetComponent<SavingSystem>().Load(defaultSaveFile);
+        }
+
+        public void Delete()
+        {
+            GetComponent<SavingSystem>().Delete(defaultSaveFile);
         }
     }
 }

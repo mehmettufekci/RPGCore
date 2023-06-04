@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e4307d3220678d48a611462de741153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 40
+  healthPoints: 30
 --- !u!54 &462851131508723710
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -271,6 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingLevel: 1
   characterClass: 3
+  progression: {fileID: 11400000, guid: 65f07c42242c4f247bc801f8544ea090, type: 2}
 --- !u!1001 &8285836235740801224
 PrefabInstance:
   m_ObjectHideFlags: 0
