@@ -10,7 +10,6 @@ namespace RPG.SceneManagement
     {
         const string defaultSaveFile = "save";
 
-
         //private void Awake()
         //{
         //    StartCoroutine(LoadLastScene());

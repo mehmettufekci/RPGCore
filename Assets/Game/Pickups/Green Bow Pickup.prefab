@@ -14,7 +14,7 @@ PrefabInstance:
     - target: {fileID: 4907110351913702801, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
       propertyPath: weapon
       value: 
-      objectReference: {fileID: 11400000, guid: 6859ef4c1d672a843af60c9ee7d4bd0a, type: 2}
+      objectReference: {fileID: 11400000, guid: 257e2749160ca1948ae664bf080ae738, type: 2}
     - target: {fileID: 8002801028656669436, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -66,7 +66,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8002801028656669436, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
   m_PrefabInstance: {fileID: 179336318479610923}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &641676210126891446
+--- !u!1001 &1551938916263616791
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -76,10 +76,6 @@ PrefabInstance:
     - target: {fileID: 1717406733745140, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
       propertyPath: m_Name
       value: Wooden Bow
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717406733745140, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4620178347958848, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
       propertyPath: m_RootOrder
