@@ -44,6 +44,7 @@ Transform:
   - {fileID: 850793051067218260}
   - {fileID: 9058896371541185261}
   - {fileID: 7248571736970695326}
+  - {fileID: 2377857415497229604}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -201,6 +202,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7649578202377538517}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8768364973215652471}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &462851131508723710
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -291,6 +319,106 @@ MonoBehaviour:
   progression: {fileID: 11400000, guid: 65f07c42242c4f247bc801f8544ea090, type: 2}
   levelUpParticleEffect: {fileID: 0}
   shouldUseModifiers: 0
+--- !u!1 &3602263748427111868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2377857415497229604}
+  m_Layer: 0
+  m_Name: Audio Sources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2377857415497229604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602263748427111868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6570446, y: 1.4461079, z: -0.0504596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7029143303402080820}
+  - {fileID: 8217722639963069334}
+  m_Father: {fileID: 7152663993387683178}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &537709626572902114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2377857415497229604}
+    m_Modifications:
+    - target: {fileID: 6202689819537387071, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_Name
+      value: Archer Die Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4660906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021175563
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.040346675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+--- !u!4 &8217722639963069334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8466031991752529268, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+  m_PrefabInstance: {fileID: 537709626572902114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8768364973215652471 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 9140382492443841685, guid: 309ddbc503e52854895bd5ebfaf211e2, type: 3}
+  m_PrefabInstance: {fileID: 537709626572902114}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883874002018639551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,4 +629,71 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4115090597665685706, guid: 9461956c89c60ca4f8ab3b1bb499e4f1, type: 3}
   m_PrefabInstance: {fileID: 6738410404172190292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9181733142215964113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2377857415497229604}
+    m_Modifications:
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6570446
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4461079
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0504596
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434246317385696430, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+      propertyPath: m_Name
+      value: Archer Damage Sound
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+--- !u!4 &7029143303402080820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2224946660087070693, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+  m_PrefabInstance: {fileID: 9181733142215964113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &7649578202377538517 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1532582310635798020, guid: ff4d6a4ef54a09a4fb66d6bc3225a9df, type: 3}
+  m_PrefabInstance: {fileID: 9181733142215964113}
   m_PrefabAsset: {fileID: 0}
