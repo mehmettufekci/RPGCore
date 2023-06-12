@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  maxSpeed: 6
+  maxSpeed: 7
   maxNavPathLength: 40
 --- !u!195 &2649434032045190090
 NavMeshAgent:
@@ -298,10 +298,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 5
+  aggroCooldownTime: 5
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
   patrolSpeedFraction: 0.3
+  shoutDistance: 5
 --- !u!114 &8632718161498704343
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -116,6 +116,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8050962384823808432, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.86738044
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050962384823808432, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050962384823808432, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7296478
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6838232
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413615165040189868, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -86.286
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8041d53a1cba7414e9e74301ed235e41, type: 3}
 --- !u!4 &5762732768631112245 stripped

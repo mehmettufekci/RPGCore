@@ -14,7 +14,7 @@ namespace RPG.Control
     {
         [SerializeField] float chaseDistance = 5f;
         [SerializeField] float suspicionTime = 3f;
-        [SerializeField] float aggroCooldownTime = 5f;
+        [SerializeField] float aggroCooldownTime = 3f;
         [SerializeField] PatrolPath patrolPath;
         [SerializeField] float waypointTolerance = 1f;
         [SerializeField] float waypointDwellTime = 3f;
@@ -32,6 +32,7 @@ namespace RPG.Control
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         float timeSinceAggrevated = Mathf.Infinity;
         int currentWaypointIndex = 0;
+        bool hasBeenAggroedRecently = false;
 
         private void Awake()
         {
@@ -57,6 +58,11 @@ namespace RPG.Control
         {
             if (health.IsDead()) return;
 
+            if (timeSinceAggrevated >= aggroCooldownTime && timeSinceLastSawPlayer >= suspicionTime)
+            {
+                hasBeenAggroedRecently = false;
+            }
+
             if (IsAggrevated() && fighter.CanAttack(player))
             {
                 AttackBehaviour();
@@ -76,7 +82,20 @@ namespace RPG.Control
         public void Aggrevate()
         {
             timeSinceAggrevated = 0;
+            timeSinceLastSawPlayer = 0;
         }
+        public void AggroAllies()
+        {
+            if (hasBeenAggroedRecently == true) { return; }
+
+            if (hasBeenAggroedRecently == false)
+            {
+                timeSinceAggrevated = 0f;
+                timeSinceLastSawPlayer = 0f;
+                hasBeenAggroedRecently = true;
+            }
+        }
+
 
         private void UpdateTimers()
         {
@@ -137,9 +156,11 @@ namespace RPG.Control
             foreach (RaycastHit hit in hits)
             {
                 AIController ai = hit.collider.GetComponent<AIController>();
-                if(ai == null) continue;
 
-                ai.Aggrevate();
+                if (ai == null)
+                    continue;
+
+                ai.AggroAllies();
             }
         }
 
